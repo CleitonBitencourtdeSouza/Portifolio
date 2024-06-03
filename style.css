@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+}
+
+.section {
+  display: none;
+  /* Oculta todas as seções por padrão */
+  text-align: left;
+  /* Alinha o texto à esquerda por padrão */
+}
+
+#home {
+  font-size: 100px;
+  text-align: center;
+  display: flex;
+  /* Usa Flexbox */
+  justify-content: center;
+  /* Centraliza horizontalmente */
+  align-items: center;
+  /* Centraliza verticalmente */
+  margin-top: 20vh;
+  /* Altura total da viewport */
+  /* margin-top: 150px; */
+}
+
+/* Estilos específicos para a seção home quando ela estiver ativa */
+#home.active {
+  font-size: 100px;
+  text-align: center;
+  display: flex;
+  /* Usa Flexbox */
+  justify-content: center;
+  /* Centraliza horizontalmente */
+  align-items: center;
+  /* Centraliza verticalmente */
+  margin-top: 20vh;
+}
+
+
+.contato {
+  margin-bottom: 20px;
+  /* margin-left: 30px; Remova ou comente esta linha */
+}
+
+#contatoFrase,
+#contatoDados {
+  margin-left: 0;
+  /* Altere para 0 para alinhar com as outras seções */
+}
+#contatoFrase2{
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.listaTopico {
+  list-style-type: none;
+  padding-top: 5px;
+  margin-left: 0; /* Define a margem esquerda como zero */
+}
+
+#projects p {
+  padding-top: 16px;
+}
+
+.lista {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#contatoDados {
+  margin-bottom: 10px;
+  /* Isso adiciona um espaço  */
+}
+
+.listaTopico a {
+  text-decoration: none; /* Remove o sublinhado do link */
+  color: inherit; /* Mantém a cor do texto consistente com outros itens da lista */
+}
